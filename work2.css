@@ -1,0 +1,76 @@
+  body
+  {
+      margin:0;
+      padding: 0;
+      background:url(./images/PVUauj9-stills-wallpapers.jpg);
+      font-family: sans-serif;
+      background-size: 100%;
+  }
+
+  .box
+  {
+      width: 300px;
+      padding: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background: rgb(25, 39, 43);
+      text-align: center;
+  }
+
+  .box h1
+  {
+      color: rgb(21, 121, 252);
+      text-transform: capitalize;
+      font-weight: 500;
+      border-bottom: 4px solid blue;
+
+  }
+
+  .box input[type="email"],.box input[type="password"]
+  {
+      border: 0;
+      background: none;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid rgb(240, 224, 231);
+      border-radius: 24px;
+      padding: 14px 10px;
+      width: 200px;
+      color: rgb(252, 253, 253);
+      outline: none;
+      transition: 0.25s;
+  }
+
+  .box input[type="email"]:hover,.box input[type="password"]:hover
+  {
+    background: black;
+  }
+
+  .box input[type="email"]:focus,.box input[type="password"]:focus
+  {
+      width: 250px;
+      border-color: blue;
+  }
+
+  .box input[type="submit"]
+  {
+      color: rgb(21, 21, 22);
+      padding: 10px;
+      outline: none;
+      border: 2px solid green;
+      background: dodgerblue;
+      display: block;
+      margin: 20px auto;
+      border-radius: 100px;
+  }
+
+  .box input[type="submit"]:hover
+  {
+      width:90px ;
+      background: floralwhite;
+      color: blue;
+
+  }

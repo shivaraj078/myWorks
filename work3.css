@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+}
+
+#header
+{
+    height: 25px;
+    width: 100%;
+}
+
+.menulogo i
+{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 16px 0px;    
+}
+
+/* .menus
+{
+    display: inline-block;
+    width: 20%;
+    padding: 3px 68px 0px;
+    text-decoration: none;
+} */
+
+ul
+{
+    list-style: none;
+}
+
+#nav_bar
+{
+    float: right; 
+}
+
+#nav_bar li
+{
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav_bar #signin
+{
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+}
+
+.nav_links
+{
+    color: #404040;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav_links a:hover
+{
+    text-decoration: underline;
+}
+
+#signin:hover
+{
+    box-shadow: 1px 1px 5px #999;
+}
+
+#signin
+{
+    color: #fff;
+}
+
+.google_logo
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+
+}
+
+.form
+{
+    text-align: center;
+}
+
+#form-search
+{
+    padding: 11px;
+    border-radius: 24px;
+    width: 440px;
+    line-height: 20px;
+    outline: none;
+}
+
+.form i
+{
+    color: grey;
+    font-size: 18px;
+    position: absolute;
+    line-height: 2.5;
+    width: 36px;
+}
+
+.form #form-search::placeholder
+{
+    padding: 30px;
+}
+
+.form a>i
+{
+    position: relative;
+    right: 45px;
+    top: 3px;
+}
